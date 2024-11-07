@@ -1,0 +1,80 @@
+[
+  {
+    "description": "",
+    "elements": [
+      {
+        "description": "",
+        "id": "example-feature;visit-playwright-website",
+        "keyword": "Scenario",
+        "line": 3,
+        "name": "Visit Playwright website",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 367203599
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 4,
+            "name": "I open the Playwright homepage",
+            "match": {
+              "location": "src\\steps\\example.steps.ts:5"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 787698499
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 5,
+            "name": "I click on the \"Get started\" button",
+            "match": {
+              "location": "src\\steps\\example.steps.ts:9"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 133541899
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 6,
+            "name": "I should see \"Installation\" in the page title",
+            "match": {
+              "location": "src\\steps\\example.steps.ts:13"
+            },
+            "result": {
+              "status": "failed",
+              "duration": 6878599,
+              "error_message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoContain\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // indexOf\u001b[22m\n\nExpected substring: \u001b[32m\"Installation\"\u001b[39m\nReceived string:    \u001b[31m\"Fast and reliable end-to-end testing for modern web apps | Playwright\"\u001b[39m\n    at Proxy.<anonymous> (C:\\playwrightWeb-main\\node_modules\\playwright\\lib\\matchers\\expect.js:225:37)\n    at World.<anonymous> (C:\\playwrightWeb-main\\src\\steps\\example.steps.ts:15:17)"
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 65575500
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      }
+    ],
+    "id": "example-feature",
+    "line": 1,
+    "keyword": "Feature",
+    "name": "Example Feature",
+    "tags": [],
+    "uri": "src\\features\\example.feature"
+  }
+]
